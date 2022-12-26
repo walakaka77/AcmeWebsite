@@ -1,3 +1,7 @@
+
+
+/* Global */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -6,8 +10,6 @@ body {
     margin: 0;
     background-color: #f4f4f4;
 }
-
-/* Global */
 
 .container {
 
@@ -28,6 +30,16 @@ header {
 header .container {
     display: flex;
     align-items: baseline;
+    flex-direction: row;
+}
+
+header .branding h1 {
+    margin: 0;
+}
+
+header .highlight {
+    color: #e8491d;
+    font-weight: bold;
 }
 
 
@@ -56,20 +68,32 @@ header .menu {
 
 }
 
-header .menu .current a{
+header .current a {
     color: #e8491d;
     font-weight: bold;
 }
 
-header .branding h1 {
-    margin: 0;
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+  }
+
+/* Showcase section properties */
+.showcase {
+    min-height: 400px;
+    background: url(../img/showcase.jpg) no-repeat 0 -400px;
+    color: white;
+    text-align: center;
 }
 
-header .highlight {
-    color: #e8491d;
-    font-weight: bold;
+.showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
 }
 
-header .container {
-    vertical-align: baseline;
+.showcse p {
+    font-size: 20px;
 }
+
+/* Newsletter Section Bitch! */
