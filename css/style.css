@@ -18,6 +18,14 @@ body {
     overflow: hidden;
 }
 
+.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border-style: none;
+    padding: 0 20px 0 20px;
+    color: white;
+}
+
 /* Header Styles */
 header {
     background: #35424a;
@@ -97,3 +105,55 @@ header a:hover{
 }
 
 /* Newsletter Section Bitch! */
+
+.newsletter {
+    padding: 15px;
+    color: white;
+    background: #35424a;
+}
+
+.newsletter .container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.newsletter .container form {
+    margin-left: auto;
+}
+
+.newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+/* Boxes Section */
+
+
+.boxes .container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    /* gap: 10px; */
+}
+
+.boxes .box {
+    text-align: center;
+    padding: 10px;
+}
+
+.boxes .box img {
+    width: 30%;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    background-color: #e8491d;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
