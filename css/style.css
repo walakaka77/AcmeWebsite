@@ -9,6 +9,10 @@ body {
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* justify-content: space-between; */
 }
 
 .container {
@@ -24,6 +28,30 @@ body {
     border-style: none;
     padding: 0 20px 0 20px;
     color: white;
+}
+
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+/* Services, About Us Page Global Styles */
+.main .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-col {
+    padding: 0 20px 0 20px;
+    flex-basis: 60%;
+}
+
+.sidebar {
+    padding: 20px;
+    flex-basis: 40%
 }
 
 /* Header Styles */
@@ -154,6 +182,6 @@ header a:hover{
     text-align: center;
     background-color: #e8491d;
     color: white;
-    margin-top: 20px;
+    margin-top: auto;
     padding: 20px;
 }
