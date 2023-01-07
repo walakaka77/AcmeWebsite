@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
 }
 
 body {
@@ -49,6 +50,15 @@ h1, h2 {
     height: 100%;
 }
 
+.grid-2 {
+    display: grid;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .btn {
     background: var(--primary-color);
     color: white;
@@ -75,6 +85,14 @@ h1, h2 {
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     margin: 10px;
+}
+
+.my-4 {
+    margin: 3rem 0;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* Navbar Styles */
@@ -150,3 +168,67 @@ h1, h2 {
     padding: 3px;
     font-size: 16px;
 }
+
+/* Stats Style */
+
+.stats {
+    padding-top: 100px;
+}
+
+.stats-heading {
+    max-width: 500px;
+    margin: auto;
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+/* Test Styles */
+
+/* .shafik-box {
+    border-style: solid;
+    border-color: blue;
+    width: 700px;
+}
+
+.shafik-box-red {
+    background: red;
+}
+
+.shafik-box-green {
+    background: green;
+}
+
+.shafik-grid {
+    display: grid;
+    gap: 10px 0;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 400px 200px 400px;
+    grid-auto-rows: 400px;
+    grid-auto-columns: 100px;
+}
+
+.shafik-height {
+    height: 100%;
+}
+
+.shafik-grid-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.shafik-grid-2 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+
+.shafik-grid-3 {
+    grid-column: 3;
+    grid-row:
+    1 / 4;
+}
+
+.shafik-top-layer {
+    z-index: 5;
+} */ 
